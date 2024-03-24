@@ -36,8 +36,8 @@ export default function Contact() {
                             <div className="ml-4 mb-4">
                                 <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 ">Contact
                                 </h3>
-                                <p className="text-gray-600 ">Mobile: +1 (123) 456-7890</p>
-                                <p className="text-gray-600 ">Mail: tailnext@gmail.com</p>
+                                <p className="text-gray-600 ">Mobile: +977 9761754929</p>
+                                <p className="text-gray-600 ">Mail: nssinfo@nssnetsyssoft.com</p>
                             </div>
                         </li>
                         <li className="flex  flex-wrap mt-5 lg:ml-10 md:mt-0">
@@ -55,8 +55,8 @@ export default function Contact() {
                             <div className="ml-4 mb-4 ">
                                 <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 ">Contact
                                 </h3>
-                                <p className="text-gray-600 ">Mobile: +1 (123) 456-7890</p>
-                                <p className="text-gray-600 ">Mail: tailnext@gmail.com</p>
+                                <p className="text-gray-600 ">Mobile: +977 9761754929</p>
+                                <p className="text-gray-600 ">Mail: nssinfo@nssnetsyssoft.com</p>
                             </div>
                         </li>
                     </ul>
