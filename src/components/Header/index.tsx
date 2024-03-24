@@ -79,7 +79,7 @@ export default function Header() {
 
 </section>
 {
-  isOpen && <div className=" fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-800 bg-opacity-50 z-50 " id="modal" >
+  isOpen && <div className=" fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-800 bg-opacity-50 z-50 lg:hidden" id="modal" >
   <div className="bg-white p-8 rounded-lg shadow-lg transform transition-all  relative duration-300" id="modal-content" style={{height:'70vh' ,width:'95%',marginTop:'20px',top:'-110px'}}>
   <svg onClick={()=>setIsOpen(init=>!init)} className="h-8 w-8 mr-2 absolute rounded-full shadow-xl cursor-pointer hover:scale-105 right-[-10px] top-[-20px] p-[5px]  bg-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
