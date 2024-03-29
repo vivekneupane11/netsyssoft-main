@@ -48,7 +48,7 @@ export default function Header() {
 <Logo/>
       <ul className="flex justify-center  flex-1 ">
         {
-          leftMenu.map((menu:string)=><li className={`text-base text-black font-semibold font-sans mx-5 cursor-pointer hover:text-blue-500  text-black `} key={menu}>
+          leftMenu.map((menu:string)=><li className={`text-base text-black font-semibold font-sans ml-[1rem] mr-5 cursor-pointer hover:text-blue-500  text-black `} key={menu}>
  <a href={`#${menu.toLowerCase().replace(/\s/g, "")}`} onClick={(e) => {
         e.preventDefault();
       scrollToSection(`#${menu.toLowerCase().replace(/\s/g, "")}`);

@@ -12,20 +12,20 @@ const DATA = [
         id:2,
         title:'NumPy',
         description:'NumPy stands for Numerical Python and is a Python library used for working with arrays and has functions for working with linear algebra, fourier transform, and matrices. NumPy was created in 2005 by Travis Oliphant.',
-        url:'https://datascientest.com/en/wp-content/uploads/sites/9/2023/03/illu_numpy_blog-125.png'
+        url:'https://www.learnfly.com/img/post_img/1958855506_learnfly%20-%20numpy.png'
     },
     {
         id:3,
         title:'Pandas',
         description:'Pandas is a Python library used for working with data sets and has functions for analyzing, cleaning, exploring, and manipulating data. "Pandas" has a reference to both "Panel Data", and "Python Data Analysis" and was created by Wes McKinney in 2008. We will use pandas for reading and analyzing data and to analyze big data and make conclusions based on statistical theories in Machine Learning. We will also use pandas to clean messy data sets, and make them readable and relevant.',
-        url:'https://cdn.filestackcontent.com/GgTFAbNTtiA09pWpwLAz'
+        url:'https://cdn.sanity.io/images/oaglaatp/production/7548a09d74442ec36c18b9411e79147ab2275ade-1200x800.png?w=1200&h=800&auto=format'
     },
 
     {
         id:4,
         title:'Matplotlib',
         description:'In this module you will learn Matplotlib which is a plotting library for the Python programming language and its numerical mathematics extension NumPy and widely used in Machine Learning and Data Science for visiualizations. We will use matplotlib for creating static, animated, and interactive visualizations.',
-        url:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfiI_QU9YZed3-syUmG5yPqterjGkfQv4SVljHL5OH&s'
+        url:'https://miro.medium.com/v2/resize:fit:1400/1*yaHK-ailKGO7kQ4viAaYPQ.jpeg'
     },
 
     {

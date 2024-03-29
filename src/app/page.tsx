@@ -7,7 +7,6 @@ import FAQ from "@/components/FAQ"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import ML from "@/components/ML"
-import MapView from "@/components/Maps"
 import Register from "@/components/Register"
 import Scan from "@/components/Scan"
 import dynamic from "next/dynamic"
@@ -34,7 +33,7 @@ export default function Home() {
 <Gallery/>
 <NoSSR/>
 <Testimonial/> */}
-<MapView/>
+{/* <MapView/> */}
 </section>
 <Footer/>
 

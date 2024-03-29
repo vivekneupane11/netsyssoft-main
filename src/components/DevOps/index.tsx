@@ -1,15 +1,5 @@
-import terra from '@/assets/1_9-ILOQ1Yxautyc_uIguhVw.png';
-import kub from '@/assets/6.png';
-import docker from '@/assets/Docker-Logo.png';
-import git from '@/assets/GitHub-logo.png';
-import jen from '@/assets/Jenkins.webp';
-import poth from '@/assets/Prometheus-metaimage.png';
-import aws from '@/assets/images.jpeg';
-import ansible from '@/assets/key-features-and-specific-roles-of-Ansible.png';
-import nss from '@/assets/nss-devops-blue.png';
-import py from '@/assets/py.png';
+/* eslint-disable @next/next/no-img-element */
 
-import Image from "next/image";
 export default function DevOps() {
   return (
     <div id="devops" className=" flex flex-col justify-around mt-[120px] border-b-4 pb-[70px] border-gray-100">
@@ -68,7 +58,7 @@ export default function DevOps() {
     <p className='py-5 px-0 w-[90%] text-left font-sans'>In this module you will learn the Linux basic commands which are helpful as a DevOps Engineer. As well as you will learn shell scripting which will help you to write shell programs required as a DevOps Engineer.</p>
 </div>
 <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-2/3 p-4">
-    <Image src={nss} alt="Image 3" className="w-full h-auto shadow-md" style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
+    <img src={'https://www.redhat.com/sysadmin/sites/default/files/styles/full/public/2021-11/linux-command-line-ls-output_1000x600.jpg?itok=9APn6NKY'} alt="Image 3" className="w-full h-auto shadow-md" style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
   </div></div>
 
 
@@ -79,7 +69,7 @@ export default function DevOps() {
     <p className='py-5 px-0 w-[90%] text-left font-sans'>In this module you will learn about GitHub repository and git commands. You will learn to create your own code repositories lo cally and synchronize them with remote GitHub repositories. You will learn about cloning, saving, commiting, pushing, branching and mer ging git commands.</p>
 </div>
 <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-2/3 p-4">
-    <Image src={git} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
+    <img src={'https://github.blog/wp-content/uploads/2023/01/1200x640.png?fit=1200%2C640'} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
   </div></div>
 
 
@@ -90,7 +80,7 @@ export default function DevOps() {
     <p className='py-5 px-0 w-[90%] text-left font-sans'>In this module you will learn basics of AWS Cloud Computing Services. You will learn about EC2, Autoscaling Group, Elastic Loa d Balancer, VPC, RDS, S3, Codecommit, Codebuild, Codedeploy, Codepipeline, SNS and SQS.</p>
 </div>
 <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-2/3 p-4">
-    <Image src={aws} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
+    <img src={'https://i.ytimg.com/vi/TSGnWlGmSds/maxresdefault.jpg'} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
   </div></div>
 
 
@@ -101,7 +91,7 @@ export default function DevOps() {
     <p className='py-5 px-0 w-[90%] text-left font-sans'>In this module you will learn terraform as IaC and deploy AWS resources through the use of terraform apply without using the AWS console. You will be performing a complete AWS basic infrastructure building (VPC, Subnet, Route Tables, Interne t Gateway, NAT Gateway, Security Group and EC2 using terraform.</p>
 </div>
 <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-2/3 p-4">
-    <Image src={terra} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
+    <img src={'https://repository-images.githubusercontent.com/17728164/10b4bf00-6a20-11ea-8934-20870600afc0'} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
   </div></div>
 
 
@@ -112,7 +102,7 @@ export default function DevOps() {
     <p className='py-5 px-0 w-[90%] text-left font-sans'>In this module you will learn about creating containers using docker. You learn creating custom images to push ing the image to docker hub to creating a full fledged web application using container and serving it as a website. Docker is containerization tool using which you will run containers with your custom images.</p>
 </div>
 <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-2/3 p-4">
-    <Image src={docker} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
+    <img src={'https://kinsta.com/wp-content/uploads/2023/07/ssh-into-docker-container.jpg'} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
   </div></div>
 
 
@@ -123,7 +113,7 @@ export default function DevOps() {
     <p className='py-5 px-0 w-[90%] text-left font-sans'>In this module you will learn Kubernetes as Orchestration tool. Topics covered are Kubernetes Architectur e, Namespaces, Pods, Replicasets, Deployments, Services, PV, PVC, Daemonset, Statefulset. You will be able to deploy a complete HA webs ite after Kubernetes.</p>
 </div>
 <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-2/3 p-4">
-    <Image src={kub} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
+    <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9zdB1cETsZ-lOIlGwADMY1vl_6DtiROND2hBxEwklsA&s'} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
   </div></div>
 
 
@@ -136,7 +126,7 @@ export default function DevOps() {
 </p>
 </div>
 <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-2/3 p-4">
-    <Image src={jen} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
+    <img src={'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_mAoYvb8V-BAIYM6nO-6ECjcs8NUhBKVCm4ciWnMVljxH6OVwN896v8CC7NAb8EX7RSgIXzJ1iZe4Yha58bGIskG7XNS-oSnkluse78KKnMgL4WRphLqI4yPpf3T_cE6ER_4ero6Ir7vlVgEcpckKnrYq0Z2_MVymhrWZe8Yovr7OgmrQsCrwZl0e3p-O/s728-rw-e30/jek.jpg'} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
   </div></div>
    
 
@@ -148,7 +138,7 @@ export default function DevOps() {
 </p>
 </div>
 <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-2/3 p-4">
-    <Image src={poth} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
+    <img src={'https://shalb.com/wp-content/uploads/2022/09/Grafana.png'} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
   </div></div>
 
 
@@ -161,7 +151,7 @@ export default function DevOps() {
 </p>
 </div>
 <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-2/3 p-4">
-    <Image src={ansible} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
+    <img src={'https://opennebula.io/wp-content/uploads/2023/08/Use-Ansible-Playbooks-to-deploy-OpenNebula-Cover.jpg'} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
   </div></div>
 
 
@@ -173,7 +163,7 @@ export default function DevOps() {
 </p>
 </div>
 <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-2/3 p-4">
-    <Image src={py} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
+    <img src={'https://miro.medium.com/v2/resize:fit:1400/0*pU8l4-u0s1flFQiU.png'} alt="Image 3" className="w-full h-auto " style={{height:"220px",objectFit:'cover',borderRadius:'12px',minWidth:'300px'}} />
   </div></div>
 
 

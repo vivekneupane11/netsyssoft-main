@@ -5,7 +5,7 @@ const Banner = () => {
     <div
       className={` banner w-full h-[80vh] bg-cover bg-center  flex items-center justify-center relative `}
       style={{
-        backgroundImage: `url('https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+        backgroundImage: `url('https://miro.medium.com/v2/resize:fit:1024/1*OoQd-korhj299qYSmt25Tg.png')`,
         backgroundSize: "cover",
       }}
     >
